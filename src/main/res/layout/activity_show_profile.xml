@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ShowProfile">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:id="@+id/iv_sp"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:layout_marginTop="4dp"
+        android:id="@+id/name_sp"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="website"
+        android:id="@+id/web_sp"
+        android:textSize="20sp"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="email"
+        android:id="@+id/email_sp"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bio"
+        android:id="@+id/bio_sp"
+        android:textSize="20sp"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="profession"
+        android:layout_marginTop="4dp"
+        android:id="@+id/prof_sp"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="issue"
+        android:layout_marginTop="4dp"
+        android:id="@+id/issue_sp"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="show reporter"
+
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_showreporter"/>
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="remove user"
+        android:id="@+id/remove_user"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="allow user"
+        android:textAlignment="center"
+        android:layout_weight="1"
+        android:id="@+id/allow_user"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/rv_ru"
+        />
+
+</LinearLayout>

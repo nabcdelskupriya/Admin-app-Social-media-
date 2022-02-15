@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="reporter"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:layout_margin="10dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:id="@+id/iv_sp_bs"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:layout_marginTop="4dp"
+        android:id="@+id/name_sp_bs"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="website"
+        android:id="@+id/web_sp_bs"
+        android:textSize="20sp"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="email"
+        android:id="@+id/email_sp_bs"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bio"
+        android:id="@+id/bio_sp_bs"
+        android:textSize="20sp"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="profession"
+        android:layout_marginTop="4dp"
+        android:id="@+id/prof_sp_bs"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"/>
+
+
+
+</LinearLayout>
